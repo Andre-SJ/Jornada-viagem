@@ -8,10 +8,14 @@ header {
   position: relative;
 }
 
-.logo {
+.logo-mobile {
   display: inline-block;
   width: 68px;
   height: 64px;
+}
+
+.logo-desktop{
+  display: none;
 }
 
 .navegation-menu {
@@ -63,6 +67,22 @@ nav {
     
   }
   
+  
+}
+@media screen and (min-width: 1024px) {
+
+  .logo-desktop{
+    display: block;
+  }
+
+  .logo-mobile{
+    display: none;
+  }
+
+  .list-links :hover {
+    color: var(--primary-color)
+    
+  }
   
 }
   
