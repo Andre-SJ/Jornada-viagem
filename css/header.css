@@ -34,11 +34,37 @@ nav {
 .list-links {
   list-style-type: none;
 }
-.list-links li{
-    margin: 16px 0;
+.list-links li {
+  margin: 16px 0;
 }
 
 .list-links li a {
   text-decoration: none;
   color: var(--background-secondary-color);
+  font-weight: var(--title-weight);
+  font-size: 24px;
 }
+
+@media screen and (min-width: 768px) {
+  .navegation-menu{
+    margin-top: 0;
+
+  }
+  .navegation-menu label {
+    display: none;
+  }
+  .navegation-menu nav {
+    display: block;
+  }
+  .list-links{
+    display: flex;
+    justify-content:space-between;
+    width: 467px;
+    
+  }
+  
+  
+}
+  
+  
+
