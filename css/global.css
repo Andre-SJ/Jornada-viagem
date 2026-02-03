@@ -37,3 +37,20 @@ button {
   --text-menu-weight: 500;
   --title-weight: 700;
 }
+
+body {
+  font-family: "Montserrat";
+  color: var(--text-primary-color);
+}
+
+.section-title h2 {
+  font-size: 28px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.section-title hr {
+  width: 180px;
+  height: 4px;
+  background-color: var(--secondary-color);
+}
