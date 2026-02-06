@@ -9,7 +9,7 @@
   color: var(--text-secondary-color);
   width: 312px;
   height: 288px;
-  background-color: black;
+  background-color: transparent
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
@@ -70,18 +70,22 @@
 }
 
 @media screen and (min-width: 1024px) {
+  .offers-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
 
-
-  .card {
-    width: 420px;
+  .offers-card .card {
+    width: 500px;
     height: 308px;
   }
 
-  .card header h3 {
+  .offers-card .card header h3 {
     font-size: 40px;
   }
 
-  .card header span {
+  .offers-card .card header span {
     font-size: 40px;
   }
 }
