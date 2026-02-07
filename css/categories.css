@@ -1,10 +1,14 @@
+.categories .section-title {
+    width: 312px;
+    margin: 0 auto;
+}
+
 .categories-card {
   display: flex;
   flex-direction: column;
   gap: 24px;
   align-items: center;
   margin-top: 64px;
-  
 }
 
 .categories-card a.card {
@@ -18,17 +22,34 @@
   color: var(--text-primary-color);
 }
 
-.categories-card .card h3{
-    font-size: 28px;
-    font-weight: var( --title-weight);
-    
+.categories-card .card h3 {
+  font-size: 28px;
+  font-weight: var(--title-weight);
 }
 
 .categories-card .card.single-line {
-    padding-top: 50px;
+  padding-top: 50px;
 }
 
-.categories-card .card.single-line.transfer img{
-    margin: 10px 0 20px;
+.categories-card .card.single-line.transfer img {
+  margin: 10px 0 20px;
+}
 
+@media screen and (min-width: 768px) {
+.categories .section-title {
+    width: 100%;
+    
+}
+
+
+  .categories-card {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
+@media screen and (min-width: 1024px) {
+  .categories-card {
+    flex-wrap: nowrap;
+  }
 }

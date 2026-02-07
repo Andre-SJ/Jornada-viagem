@@ -9,7 +9,7 @@
   color: var(--text-secondary-color);
   width: 312px;
   height: 288px;
-  background-color: transparent
+  background-color: transparent;
   box-sizing: border-box;
   padding: 24px 16px;
   border-radius: 16px;
