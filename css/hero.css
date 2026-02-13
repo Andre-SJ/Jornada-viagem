@@ -7,13 +7,15 @@
 }
 
 .hero h2 {
-  font-size: 24px;
+  font-size: 20px;
   margin: 0;
-  padding: 88px 24px;
+  padding: 88px 50px;
   font-weight: var(--text-weight);
   text-align: center;
   line-height: 1.5;
   color: var(--text-primary-color);
+  
+ 
 }
 
 @media screen and (min-width: 768px) {
