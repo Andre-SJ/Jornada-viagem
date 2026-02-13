@@ -1,11 +1,15 @@
-.offers-card {
+.offers {
+  margin-bottom: 104px;
+}
+
+.offers-cards {
   display: flex;
   flex-direction: column;
   align-items: center;
   gap: 24px;
 }
 
-.card {
+.offers-cards .card {
   color: var(--text-secondary-color);
   width: 312px;
   height: 288px;
@@ -16,7 +20,7 @@
   text-align: center;
 }
 
-.card header {
+.offers-cards .card header {
   background-color: transparent;
   display: block;
   position: static;
@@ -24,18 +28,18 @@
   margin-bottom: 24px;
 }
 
-.card header p {
+.offers-cards .card header p {
   font-size: 24px;
   font-weight: var(--text-weight);
 }
 
-.card header h3 {
+.offers-cards .card header h3 {
   font-size: 40px;
   font-weight: var(--title-weight);
   margin: 8px 0 0;
 }
 
-.card header span {
+.offers-cards .card header span {
   font-size: 32px;
   margin-top: 24px;
   display: inline-block;
@@ -62,30 +66,36 @@
 }
 
 @media screen and (min-width: 768px) {
-  .offers-card {
-    flex-direction: row;
+  .offers-cards {
+    display: flex;
     flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
+    gap: 24px;
   }
+  
 }
 
 @media screen and (min-width: 1024px) {
-  .offers-card {
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 
-  .offers-card .card {
+  .offers-cards .card {
     width: 500px;
     height: 308px;
   }
 
-  .offers-card .card header h3 {
+  .offers-cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    
+  }
+  .offers-cards .card header h3 {
     font-size: 40px;
   }
 
-  .offers-card .card header span {
+  .offers-cards .card header span {
     font-size: 40px;
   }
+  
 }

@@ -1,0 +1,87 @@
+.destinations .section-title hr {
+  margin-bottom: 32px;
+}
+
+.destinations .item header {
+  background-color: transparent;
+  display: block;
+  position: static;
+  padding: 0;
+  margin-bottom: 24px;
+}
+
+.destinations-items {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 24px;
+}
+
+.destinations .item .img-item {
+  width: 100%;
+  height: 368px;
+}
+
+.destinations .item.tokyo .img-item {
+  background: url(../img/Tokyo-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destinations .item.osaka .img-item {
+  background: url(../img/Osaka-mobile.jpg) no-repeat;
+  background-size: cover;
+}
+
+.destinations .item header h3 {
+  margin: 24px 0;
+}
+
+.destinations .item p {
+  width: 100%;
+  margin-bottom: 24px;
+  font-size: 20px;
+  font-weight: var(--text-weight);
+}
+
+.button.button.footer {
+  width: 100%;
+  margin-bottom: 40px;
+}
+
+@media screen and (min-width: 768px) {
+  .destinations-item {
+    width: 648px;
+  }
+
+  .button.button.footer {
+    width: 280px;
+    height: 64px;
+  }
+
+  .destinations .item.tokyo .img-item {
+    background: url(../img/Tokyo-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+
+  .destinations .item.osaka .img-item {
+    background: url(../img/Osaka-tablet-desktop.jpg) no-repeat;
+    background-size: cover;
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .destination-items {
+    display: flex;
+    gap: 24px;
+  }
+
+  .item.tokyo {
+    width: 588px;
+    height: 452px;
+  }
+
+  .item.osaka {
+    width: 588px;
+    height: 452px;
+  }
+}
