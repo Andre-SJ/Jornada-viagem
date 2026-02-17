@@ -1,0 +1,46 @@
+.content-image {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  height: 460px;
+  gap: 24px;
+  margin-top: 24px;
+  
+}
+
+.image.first{
+    background: url(../img/Montagem\ japão\ \ 1.png) no-repeat;
+    background-size: cover;
+    
+}
+
+.image.second{
+    background: url(../img/Montagem\ japão\ 2.png) no-repeat;
+    background-size: cover;
+}
+
+.image.thirdy{
+    background: url(../img/Montagem\ japão\ 3.png) no-repeat;
+    background-size: contain;
+    
+}
+
+.colspan{
+    grid-column: span 2
+}
+
+@media screen and (min-width: 1024px) {
+    .flex{
+        display: flex;
+        justify-content: space-between;
+    }
+    .content-image{
+        width: 790px;
+    }
+    .text-content{
+        width: 285px;
+    }
+    .payments{
+        padding-top: 200px;
+    }
+    
+}

@@ -78,6 +78,7 @@ section.hero {
   display: inline-block;
   line-height: 64px;
   text-align: center;
+ 
 }
 
 @media screen and (min-width: 768px) {
@@ -94,12 +95,13 @@ section.hero {
 @media screen and (min-width: 1024px) {
   .section-title h2 {
     font-size: 32px;
-    
+   
   }
   .button:hover {
     background-color: var(--primary-color);
   }
   section {
     width: 1200px;
+    margin: 0 auto 88px;
   }
 }
