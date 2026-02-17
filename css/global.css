@@ -46,6 +46,7 @@ body {
 section {
   width: 312px;
   margin: 0 auto 88px;
+  
 }
 
 section.hero {
@@ -58,12 +59,14 @@ section.hero {
   font-weight: 700;
   text-align: center;
   
+  
 }
 
 .section-title hr {
   width: 180px;
   height: 4px;
   background-color: var(--secondary-color);
+  margin-bottom: 60px;
 }
 
 .button {
