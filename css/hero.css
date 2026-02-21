@@ -1,10 +1,19 @@
-.hero-img {
+.hero .hero-img,
+.bottom-hero .hero-img {
   height: 400px;
   width: 100%;
-  background-image: url(../img/img-hero-mobile.jpg);
-  background-repeat: no-repeat;
+  
+}
+.hero .hero-img {
+  background: url(../img/img-hero-mobile.jpg) no-repeat;
   background-size: cover;
 }
+.bottom-hero .hero-img {
+  background: url(../img/Imagem\ pré\ rodapé\ 1.png) no-repeat;
+  background-size: cover;
+  
+}
+
 
 .hero h2 {
   font-size: 20px;
@@ -41,6 +50,11 @@
     background-repeat: no-repeat;
     background-size: cover;
   }
+  .bottom-hero .hero-img {
+  background: url(../img/Imagem\ pré\ rodapé\ 1\ deskpot.png) no-repeat;
+  background-size: cover;
+  
+}
 
   .hero h2 {
     padding: 104px 120px;

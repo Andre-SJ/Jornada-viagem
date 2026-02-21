@@ -3,7 +3,7 @@
   display: flex;
   flex-direction: column;
   gap: 32px;
-  
+  width: 312px;
 }
 .testimonials-container footer{
     display: flex;
@@ -16,6 +16,8 @@
 .testimonials-container article header p {
     font-size: 16px;
     line-height: 28px;
+    width: 384px;
+   
 }
 .testimonials-container article footer{
     display: flex;
@@ -43,6 +45,10 @@
 @media screen and (min-width: 1024px) {
   .testimonials-container {
     flex-direction: row;
+  }
+  .testimonials-container article header{
+     width: 384px;
+     padding: 0;
     
   }
 
